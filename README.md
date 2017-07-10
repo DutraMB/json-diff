@@ -19,7 +19,7 @@ This web service provides 2 HTTP endpoints that accepts JSON base64 encoded bina
 
 ### Technologies
 
-These project was developed with:
+This project was developed with:
 
     Java Development Kit (JDK) 1.8.0_131
     JUnit 4.9
@@ -27,10 +27,11 @@ These project was developed with:
     NetBeans 8.2
     Jersey 2.25.1
     Grizzly 2   
+    
 
 ### Compile and Package
 
-It was developed to run with a single jar file called Uber, Super or Fat jar.
+It was developed to run with an Uber jar.
 In order to generate this jar, you should run:
 
     mvn package
@@ -53,7 +54,7 @@ Just for Unit Tests:
 
 Just for Integration Tests, run:
 
-    mvn -Dtest=UnitTest test
+    mvn -Dtest=IntegrationTest test
 
 • Command Line Tests on Linux using curl (just with web service running - check session 'Run')
 
